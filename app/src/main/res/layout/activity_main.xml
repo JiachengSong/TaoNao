@@ -7,25 +7,29 @@
     tools:context=".MainActivity">
 
 
-
     <LinearLayout
         android:id="@+id/linearLayout1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#123445"
+
         android:orientation="vertical">
+
         <LinearLayout
+            android:layout_marginTop="200dp"
             android:id="@+id/linearLayout11"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:background="#ffffff"
             android:orientation="vertical">
-        <Button
-            android:id="@+id/bnt1"
-            android:layout_width="64dp"
-            android:layout_height="64dp"
 
-            />
+            <Button
+                android:id="@+id/bnt1"
+                android:layout_width="64dp"
+                android:layout_height="50dp"
+                android:background="@drawable/bnt1"
+                android:layout_gravity="center"
+
+
+                />
 
 
         </LinearLayout>
