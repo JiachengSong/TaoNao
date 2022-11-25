@@ -19,18 +19,29 @@
             android:id="@+id/linearLayout11"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:orientation="vertical">
+            android:orientation="horizontal">
 
             <Button
                 android:id="@+id/bnt1"
                 android:layout_width="64dp"
                 android:layout_height="50dp"
                 android:background="@drawable/bnt1"
-                android:layout_gravity="center"
-
-
+                android:layout_marginLeft="30dp"
                 />
-
+            <Button
+                android:id="@+id/bnt2"
+                android:layout_width="64dp"
+                android:layout_height="50dp"
+                android:background="@drawable/bnt2"
+                android:layout_marginLeft="50dp"
+                />
+            <Button
+                android:id="@+id/bnt3"
+                android:layout_width="64dp"
+                android:layout_height="50dp"
+                android:background="@drawable/bnt3"
+                android:layout_marginLeft="50dp"
+                />
 
         </LinearLayout>
 
